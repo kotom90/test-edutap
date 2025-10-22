@@ -28,7 +28,7 @@ obj = api.new("GenericObject",
         "cardTitle": {
             "defaultValue": {
             "language": "el-GR",
-            "value": "ΕΚΠΑΙΔΕΥΤΗΡΙΑ ΜΑΝΤΟΥΛΙΔΗ"
+            "value": "College school"
             }
         },
         "subheader": {
