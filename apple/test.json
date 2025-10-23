@@ -1,0 +1,65 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.example.mypass",
+  "serialNumber": "123456789",
+  "teamIdentifier": "ABCD123456",
+  "organizationName": "Example Organization",
+  "description": "Example Pass",
+  "logoText": "Example",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(60, 65, 76)",
+  "labelColor": "rgb(255, 255, 255)",
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "name",
+        "label": "Name",
+        "value": "John Doe"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "level",
+        "label": "LEVEL",
+        "value": "Gold"
+      },
+      {
+        "key": "membership",
+        "label": "MEMBER SINCE",
+        "value": "2024"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "expires",
+        "label": "EXPIRES",
+        "value": "2025-12-31",
+        "dateStyle": "PKDateStyleShort"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "terms",
+        "label": "TERMS AND CONDITIONS",
+        "value": "These are the terms and conditions for this pass."
+      },
+      {
+        "key": "contact",
+        "label": "CONTACT",
+        "value": "support@example.com"
+      }
+    ]
+  },
+  "barcode": {
+    "message": "123456789",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1"
+  },
+  "barcodes": [
+    {
+      "message": "123456789",
+      "format": "PKBarcodeFormatQR",
+      "messageEncoding": "iso-8859-1"
+    }
+  ]
+}
