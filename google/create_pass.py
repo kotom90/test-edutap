@@ -8,7 +8,7 @@ load_dotenv()
 # if you run the code more than once, you need to change the ID of the class,
 # like by incrementing the number part.
 class_id = f"{os.environ.get('EDUTAP_WALLET_GOOGLE_ISSUER_ID')}.example_class01.edutap_example"
-object_id = f"{os.environ.get('EDUTAP_WALLET_GOOGLE_ISSUER_ID')}.example_object06.edutap_example"
+object_id = f"{os.environ.get('EDUTAP_WALLET_GOOGLE_ISSUER_ID')}.example_object10.edutap_example"
 
 obj = api.new("GenericObject",
     {
@@ -62,7 +62,7 @@ obj = api.new("GenericObject",
         },
         "validTimeInterval": {
             "end": {
-                "date": datetime(2024, 10, 15, 13, 15).isoformat()
+                "date": datetime(2026, 10, 15, 13, 15).isoformat()
             }
             
         },
