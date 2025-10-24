@@ -4,7 +4,6 @@ from edutap.wallet_apple import api, settings
 
 with open("apple/test.json", 'r') as file:
   jsonData = json.load(file)
-
   jsonStr = json.dumps(jsonData)
   # print(json.dumps(jsonStr))
 
@@ -12,8 +11,6 @@ with open("apple/test.json", 'r') as file:
 pkPassModel = api.new(
   data = jsonData
 )
-
-# print(pkPassModel)
 
 root_path = Path("apple").resolve()
 
@@ -25,7 +22,7 @@ key pswd = trinitySystems3
 
 settings = settings.Settings(
   root_dir = root_path,
-  fernet_key="WV1aSC2TgErgOeoMG6rup3jqWy2kLTGIbjC87VLl-MM="
+  fernet_key="WV1aSC2TgErgOeoMG6rup3jqWy2kLTGIbjC87VLl-MM=" #To env or somewhere else
 )
 
 api.sign(
@@ -42,3 +39,5 @@ link = api.save_link(
 )
 
 print(link)
+
+# print(pkPassModel)
