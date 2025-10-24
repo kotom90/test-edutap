@@ -33,7 +33,7 @@ api.sign(
 print(pkPassModel.is_signed)
 
 link = api.save_link(
-  pass_type_id="com.example.mypass",
+  pass_type_id="pass.com.example.mypass",
   serial_number="pass01",
   settings = settings
 )
